@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Inter", sans-serif;
+    background:#6d6d6d;
+}
+
+/* Encabezado */
+
+header{
+    width:900px;
+    margin:40px auto 0;
+    padding:40px 20px;
+    background:rgba(132,84,220,.85);
+    text-align:center;
+}
+
+header h1{
+    font-size:90px;
+    font-weight:100;
+    font-style:italic;
+    color:rgba(255,255,255,.8);
+}
+
+/* Contenido */
+
+main{
+    width:900px;
+    margin:auto;
+    background:rgba(132,84,220,.85);
+    padding:40px 120px;
+    color:white;
+}
+
+main h2{
+    font-size:30px;
+    font-weight:300;
+    font-style:italic;
+    margin-bottom:20px;
+}
+
+main ul{
+    padding-left:30px;
+    margin-bottom:25px;
+}
+
+main li{
+    font-size:24px;
+    font-style:italic;
+    margin-bottom:10px;
+    line-height:1.4;
+}
+
+main p{
+    font-size:24px;
+    font-style:italic;
+    line-height:1.6;
+}
+
+/* Imágenes */
+
+footer{
+    width:900px;
+    margin:auto;
+    background:rgba(132,84,220,.85);
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+}
+
+footer img{
+    width:30%;
+    height:220px;
+    object-fit:cover;
+    border:3px solid rgba(255,255,255,.3);
+    transition:.3s;
+}
+
+footer img:hover{
+    transform:scale(1.05);
+}
